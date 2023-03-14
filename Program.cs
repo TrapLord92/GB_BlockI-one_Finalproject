@@ -15,3 +15,15 @@ void theCheker(string[] masterArray, string[] theRuler_array)
         }
     }
 }
+
+
+void printing (string[] tha_array)
+{
+    for (int i = 0; i < tha_array.Length; i++)
+    {
+        Console.Write($"{tha_array[i]} ");
+    }
+    Console.WriteLine();
+}
+theCheker(masterArray, theRuler_array);
+printing(theRuler_array);
